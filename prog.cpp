@@ -6,6 +6,7 @@
 #define mp make_pair
 #define fr first 
 #define sc second
+#define pii pair<ll,ll>
 
 #define inc(t, a, b, c) for (t = a; t < b; t += c)
 #define dec(t, a, b, c) for (t = a; t > b; t -= c)
