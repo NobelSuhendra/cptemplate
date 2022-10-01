@@ -10,4 +10,5 @@
 5. Bitmask
 6. Sieve of Eratosthenes
 7. Disjoint Set Union
-8. CP Template
+8. Segment Tree
+9. CP Template
