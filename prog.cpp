@@ -9,7 +9,7 @@ using namespace std;
 #define sc second
 #define mp make_pair
 #define saranghae ios_base::sync_with_stdio(false); 
-#define sar cout.tie(NULL); cin.tie(NULL);
+#define sar cout.tie(NULL); cin.tie(NULL)
 #define inc(t, a, b, c) for (t = a; t < b; t += c)
 #define dec(t, a, b, c) for (t = a; t > b; t -= c)
 #define dbg(a) cout << " >> " << a << endl
@@ -25,7 +25,7 @@ ll t = 1;
 void run();
 
 int main() {
-    saranghae sar
+    saranghae sar;
     // cin >> t;
     while(t--) run();
 }
