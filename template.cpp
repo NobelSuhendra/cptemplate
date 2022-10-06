@@ -19,7 +19,6 @@ int mx = INT_MAX;
 string yes = "YES";
 string no = "NO";
 
-
 int i, j, h;
 int t = 1;
 
