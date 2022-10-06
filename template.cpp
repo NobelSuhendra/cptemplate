@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
+#define int long long
 #define ld long double
 #define pb push_back
 #define pii pair<ll,ll>
@@ -14,19 +14,24 @@ using namespace std;
 #define dec(t, a, b, c) for (t = a; t > b; t -= c)
 #define dbg(a) cout << " >> " << a << endl
 
-ll mn = INT8_MIN;
-ll mx = INT8_MAX;
+int mn = INT_MIN;
+int mx = INT_MAX;
 string yes = "YES";
 string no = "NO";
 
-ll i, j, h;
-ll t = 1;
+
+int i, j, h;
+int t = 1;
 
 void run();
 
-int main() {
+signed main() {
     saranghae sar;
     // cin >> t;
+    /*
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    */
     while(t--) run();
 }
 
