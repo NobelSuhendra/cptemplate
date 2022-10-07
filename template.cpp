@@ -8,8 +8,7 @@ using namespace std;
 #define fr first
 #define sc second
 #define mp make_pair
-#define saranghae ios_base::sync_with_stdio(false);
-#define sar cout.tie(NULL); cin.tie(NULL)
+#define hello ios_base::sync_with_stdio(false); cout.tie(NULL); cin.tie(NULL)
 #define inc(t, a, b, c) for (t = a; t < b; t += c)
 #define dec(t, a, b, c) for (t = a; t > b; t -= c)
 #define dbg(a) cout << " >> " << a << endl
@@ -25,7 +24,7 @@ int t = 1;
 void run();
 
 signed main() {
-    saranghae sar;
+    hello;
     // cin >> t;
     /*
     freopen("input.txt", "r", stdin);
