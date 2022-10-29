@@ -13,8 +13,8 @@ using namespace std;
 #define dec(t, a, b, c) for (t = a; t > b; t -= c)
 #define dbg(a) cout << " >> " << a << endl
 
-int mn = INT_MIN;
-int mx = INT_MAX;
+int mn = LLONG_MIN;
+int mx = LLONG_MAX;
 string yes = "YES";
 string no = "NO";
 
