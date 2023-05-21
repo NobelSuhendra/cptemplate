@@ -11,7 +11,7 @@ using namespace std;
 #define fr first
 #define sc second
 #define mp make_pair
-#define rasyli ios_base::sync_with_stdio(false); cout.tie(NULL); cin.tie(NULL)
+#define speed ios_base::sync_with_stdio(false); cout.tie(NULL); cin.tie(NULL)
 
 const int N = 1e5+5;
 
@@ -43,7 +43,7 @@ void update(int l, int r, int where, int x, int idx) {
 }
 
 signed main() {
-    rasyli;
+    speed;
     cin >> n; 
     a.assign(n, pow(2, 31) - 1);
     build(0, n-1, 1);
